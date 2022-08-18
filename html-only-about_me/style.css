@@ -9,3 +9,16 @@
 .text-justify {
   text-align: justify;
 }
+
+.card {
+  border-radius: 1em;
+  text-align: center;
+}
+
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  /* border-radius: 50%; */
+}
