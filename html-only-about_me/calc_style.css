@@ -1,7 +1,7 @@
-.calc {
+.calc1 {
   margin: 100px auto;
   width: 300px;
-  height: 500px;
+  height: 520px;
   border: 1px solid #000;
   border-radius: 20px;
   background: #000;
@@ -11,7 +11,7 @@
   box-shadow: 4px 4px 4px #4f4f4f;
 }
 
-.calc-screen {
+.calc-screen1 {
   height: 125px;
   padding: 10px;
   display: grid;
@@ -20,13 +20,13 @@
   margin-bottom: 25px;
 }
 
-.calc-screen p {
+.calc-screen1 p {
   text-align: right;
   font-size: 4rem;
   margin: 0;
 }
 
-.buttons {
+.buttons1 {
   display: grid;
   grid-template-areas:
     "ac plus-minus percent division"
@@ -38,7 +38,7 @@
   justify-items: center;
 }
 
-.btn {
+.btn1 {
   width: 60px;
   height: 60px;
   background: #333;
@@ -50,24 +50,29 @@
   user-select: none;
 }
 
-.btn:hover {
+.btn1:hover {
   filter: brightness(120%);
 }
 
-.btn:active {
+.btn1:active {
   filter: brightness(90%);
 }
 
-.btn.bg-grey {
+.btn1.bg-grey {
   background: #a6a6a6;
 }
 
-.btn.bg-orange {
+.btn1.bg-orange {
   background: #ff9501;
 }
 
-.btn.zero {
+.btn1.bg-orange:active {
+  background: #fff;
+  color: #ff9501;
+}
+
+.btn1.zero {
   grid-area: zero;
-  width: 100%;
+  width: 95%;
   border-radius: 34px;
 }
