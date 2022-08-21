@@ -1,8 +1,10 @@
-let i1 = document.getElementById("i1");
-let i2 = document.getElementById("i2");
-let btn = document.getElementById("but_res");
+let i1 = document.querySelector(".n1");
+let i2 = document.querySelector(".n2");
 
 function getRes() {
-  const result = i1.value + i2.value;
+  const result = Number(i1.value) + Number(i2.value);
+  document.querySelector(".res").textContent = result;
   console.log(result);
 }
+
+document.querySelector(".btn").onclick = getRes;

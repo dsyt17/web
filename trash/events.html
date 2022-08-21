@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <link type="text/css" rel="stylesheet" href="events.css" />
+
+    <table id="bagua-table">
+      <tr>
+        <th colspan="3">
+          Квадрат<em>Bagua</em>: Направление, Элемент, Цвет, Значение
+        </th>
+      </tr>
+      <tr>
+        <td class="nw">
+          <strong>Северо-Запад</strong> <br />Металл <br />Серебро
+          <br />Старейшины
+        </td>
+        <td class="n">
+          <strong>Север</strong> <br />Вода <br />Синий <br />Перемены
+        </td>
+        <td class="ne">
+          <strong>Северо-Восток</strong> <br />Земля <br />Жёлтый
+          <br />Направление
+        </td>
+      </tr>
+      <tr>
+        <td class="w">
+          <strong>Запад</strong> <br />Металл <br />Золото <br />Молодость
+        </td>
+        <td class="c">
+          <strong>Центр</strong> <br />Всё <br />Пурпурный <br />Гармония
+        </td>
+        <td class="e">
+          <strong>Восток</strong> <br />Дерево <br />Синий <br />Будущее
+        </td>
+      </tr>
+      <tr>
+        <td class="sw">
+          <strong>Юго-Запад</strong> <br />Земля <br />Коричневый
+          <br />Спокойствие
+        </td>
+        <td class="s">
+          <strong>Юг</strong> <br />Огонь <br />Оранжевый <br />Слава
+        </td>
+        <td class="se">
+          <strong>Юго-Восток</strong> <br />Дерево <br />Зелёный <br />Роман
+        </td>
+      </tr>
+    </table>
+
+    <div>
+      Счётчик: <input type="button" value="1" data-counter /> Ещё счётчик:
+      <input type="button" value="2" data-counter />
+    </div>
+    <div>
+      <button data-toggle-id="subscribe-mail">Показать форму подписки</button>
+
+      <form id="subscribe-mail" hidden>Ваша почта: <input type="email" /></form>
+    </div>
+
+    <div id="containeree">
+      <div class="pane">
+        <h3>Лошадь</h3>
+        <p>
+          Домашняя лошадь - животное семейства непарнокопытных, одомашненный и
+          единственный сохранившийся подвид дикой лошади, вымершей в дикой
+          природе, за исключением небольшой популяции лошади Пржевальского.
+        </p>
+        <button class="remove-button">[x]</button>
+      </div>
+      <div class="pane">
+        <h3>Осёл</h3>
+        <p>
+          Домашний осёл или ишак — одомашненный подвид дикого осла, сыгравший
+          важную историческую роль в развитии хозяйства и культуры человека. Все
+          одомашненные ослы относятся к африканским ослам.
+        </p>
+        <button class="remove-button">[x]</button>
+      </div>
+      <div class="pane">
+        <h3>Кошка</h3>
+        <p>
+          Кошка, или домашняя кошка (лат. Félis silvéstris cátus), — домашнее
+          животное, одно из наиболее популярных (наряду с собакой)
+          "животных-компаньонов". С точки зрения научной систематики, домашняя
+          кошка — млекопитающее семейства кошачьих отряда хищных. Ранее домашнюю
+          кошку нередко рассматривали как отдельный биологический вид.
+        </p>
+        <button class="remove-button">[x]</button>
+      </div>
+    </div>
+
+    <script src="events.js"></script>
+  </body>
+</html>
