@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
-import MyInput from "./input/MyInput";
-import MyButton from "./button/MyButton";
+import MyInput from "./UI/input/MyInput";
+import MyButton from "./UI/button/MyButton";
 
 const PostForm = ({create}) => {
+
     const [post, setPost] = useState({
         title: '',
         body: ''
@@ -34,7 +35,7 @@ const PostForm = ({create}) => {
                     type='text'
                     placeholder='Text'
                 />
-                <MyButton onClick={addNewPost}>Send</MyButton>
+                <MyButton style={{marginTop: 10, float: 'right'}} onClick={addNewPost}>Send</MyButton>
             </form>
     );
 };
