@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper{
+    margin: 0;
+    min-height: 100vh;
+    width: 100%;
+    background-color: gainsboro;
+    background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/j-v10-poyd-02-pattern_1.jpg?w=1200&h=1200&fit=clip&crop=default&dpr=1&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=6f4f02df12fc91c8e73e479707ac5125');
+    background-size: 500px 500px;
+    background-attachment: fixed;
+}
+
+.wrapper2 {
+    min-height: 100vh;
+    width: 100%;
+    /* background-image: linear-gradient(to bottom, pink, white); */
+    /* background: linear-gradient(90deg, red, orange, yellow, green, aqua, blue, purple); */
+    /* background: repeating-linear-gradient(45deg, yellow 25px, black 25px, black 50px, yellow 50px, yellow 75px, black 75px); */
+    background: radial-gradient(pink, white);
+}
+
+img {
+    transition: all 1s ease;
+}
+
+img:hover {
+    /* filter: blur(2px) grayscale(100%); */
+    /* filter: drop-shadow(5px 6px 4px rgba(0, 0, 0, 0.5)); */
+    /* filter: grayscale(100%); */
+    /* filter: brightness(500%); */
+    /* filter: contrast(150%) */
+    /* filter: hue-rotate(90deg); */
+    /* filter: invert(100%); */
+    /* filter: saturate(300%); */
+    /* filter: sepia(100%); */
+    /* filter: opacity(50%); */
+    /* filter: sepia(100%); */
+}
