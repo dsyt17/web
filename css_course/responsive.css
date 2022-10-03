@@ -1,0 +1,26 @@
+body {
+    padding: 10px 30px;
+    margin: 0;
+    height: 100vh;
+    background-color: lightgrey;
+    font-size: 24px;
+    font-family: monospace;
+  }
+
+  @media screen 
+  and (min-width: 900px)
+  and (max-width: 1200px)
+  {
+    body {
+        /* background-color: aqua; */
+        font-size: 20px;
+    }
+  }
+
+@media screen
+and (orientation: portrait)
+{
+    h1 {
+        display: none;
+    }
+}

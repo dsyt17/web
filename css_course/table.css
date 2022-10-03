@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    height: 100vh;
+}
+
+table,
+table * {
+    border: 1px solid black; 
+    max-width: 700px;
+    border-collapse: collapse;
+    /* border-spacing: 10px; */
+    /* caption-side: bottom; */
+    /* text-align: center; */
+    empty-cells: hide;
+    /* cursor: crosshair; */
+}
+
+.dis
+{
+    pointer-events: none;
+}

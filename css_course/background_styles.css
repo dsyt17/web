@@ -28,6 +28,7 @@ body {
 
 img {
     transition: all 1s ease;
+    transform-origin: right bottom;
 }
 
 img:hover {
@@ -42,4 +43,17 @@ img:hover {
     /* filter: sepia(100%); */
     /* filter: opacity(50%); */
     /* filter: sepia(100%); */
+    
+    /* transform: rotate(180deg); */
+    /* transform: scale(1.3); */
+    /* transform: translate(50px); */
+    /* transform: skew(21deg, 21deg); */
+
+
+}
+
+.wrapper3 {
+    border: 2px solid black;
+    width: 600px;
+    /* overflow: hidden; */
 }

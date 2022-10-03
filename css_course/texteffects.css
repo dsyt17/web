@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    height: 100vh;
+}
+
+.example {
+    border: 1px solid black;
+    width: 150px;
+    min-height: 150px;
+    font-size: 30px;
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+    /* word-wrap: break-word;
+    word-break: break-all;
+    writing-mode: vertical-lr; */
+}
+
+.container {
+    margin: 10px;
+    column-count: 3;
+    column-rule: 1px solid black;
+    column-width: 100px;
+    column-gap: 100px;
+}
