@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  overflow: hidden;
+  margin: 0;
+  background: url("https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1193&q=80");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  display: flex;
+
+  /* horizont */
+  justify-content: center;
+
+  /* vertical */
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  padding: 0 20px;
+}
+
+.slide {
+  height: 80vh;
+  border-radius: 20px;
+  margin: 10px;
+  cursor: pointer;
+  color: #fff;
+
+  /* same size */
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* for h3 */
+  position: relative;
+  /* overflow: hidden; */
+
+  transition: all 500ms ease-in-out;
+  filter: blur(2px) grayscale(0.75);
+}
+
+.slide:hover {
+  scale: 1.01;
+  filter: blur(0);
+}
+
+.slide h3 {
+  position: absolute;
+  font-size: 24px;
+
+  /* bottom alignment */
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+}
+
+.slide.active {
+  flex: 10;
+  filter: blur(0);
+}
+
+.slide.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
