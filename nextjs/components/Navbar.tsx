@@ -1,5 +1,6 @@
 import styles from "../styles/Navbar.module.scss";
 import Link from "next/link";
+import Image from "next/image";
 import { useRouter } from "next/router";
 
 const navigation = [
@@ -12,7 +13,9 @@ const Navbar = () => {
   const { pathname } = useRouter();
   return (
     <nav className={styles.nav}>
-      <div className={styles.logo}>DS</div>
+      <div className={styles.logo}>
+        <Image src="/git-logo.svg" width="60" height="60" alt="DS" />
+      </div>
       <div className={styles.links}>
         {navigation.map((e) => (
           <Link key={e.id} legacyBehavior href={e.path}>

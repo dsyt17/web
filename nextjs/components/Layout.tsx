@@ -1,7 +1,12 @@
 import Header from "./Header";
 import Footer from "./Footer";
+import { FC, ReactNode } from "react";
 
-const Layout = ({ children }) => (
+type layoutProps = {
+  children: ReactNode;
+};
+
+const Layout: FC<layoutProps> = ({ children }) => (
   <>
     <Header />
     {children}
