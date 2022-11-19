@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  padding: 0 10% 0 10%;
+}
+
+.money {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  /* justify-content: space-between; */
+}
+
+.btns {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.counter {
+  font-size: 5rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(0, 162, 255);
+  color: white;
+  border: 2px solid rgb(0, 179, 255);
+  border-radius: 20px;
+  font-size: 1.3rem;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.btn:hover {
+  scale: 1.1;
+}
